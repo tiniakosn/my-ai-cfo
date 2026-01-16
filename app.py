@@ -50,7 +50,7 @@ if 'goals_config' not in st.session_state:
 # SIDEBAR
 # ==============================================================================
 with st.sidebar:
-    st.image("https://cdn-icons-png.flaticon.com/512/12122/12122434.png", width=90)
+    st.image("https://cdn-icons-png.flaticon.com/512/8992/8992203.png", width=90)
     st.markdown("### Control Center")
     uploaded_file = st.file_uploader("Upload Statement (CSV/TXT)", type=['txt', 'csv'])
     
